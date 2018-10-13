@@ -217,3 +217,15 @@ header li:hover {
 #icon {
     margin-left: 5px
 }
+
+#mission {
+    background-color: white;
+    border: 0.5px black solid;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-style: italic;
+}
+
+#Contact {
+    margin-left: 5px;
+}
