@@ -1,9 +1,9 @@
 const defaultState = {
-
+  user: null,
 }
 
 function reducer(state = defaultState, action) {
-  switch (action.type) {
+  switch (action.type) {    
     default:
       return state
   }
