@@ -22,6 +22,7 @@
   },
   "dependencies": {
     "connected-react-router": "^4.5.0",
+    "cross-fetch": "^2.2.2",
     "css-loader": "^1.0.0",
     "file-loader": "^2.0.0",
     "history": "^4.7.2",
