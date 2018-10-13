@@ -1,0 +1,44 @@
+.resource {
+    border: solid 1px #dddfe2;
+    border-radius: 3px;
+    background-color: white;
+    margin-top: 15px;
+    margin-right: 7px;
+
+    display: flex;
+}
+
+.resource img {
+    height: 150px;
+}
+
+.resource-divider {
+    display: block;
+    border-bottom: solid 1px #dddfe2;
+    width: 500px;
+}
+
+.resource a {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-family: 'Oxygen', sans-serif;
+    color: #4b4f56;
+    text-decoration: none;
+}
+
+.resource p {
+    margin-top: 5px;
+    margin-right: 10px;
+}
+
+.resources-cont {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 80%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
