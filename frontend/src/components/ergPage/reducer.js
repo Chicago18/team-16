@@ -3,9 +3,9 @@ import {
 } from './actions';
 
 const defaultState = {
-  name: null,
-  company: null,
-  location: null,
+  name: 'JPM Pride',
+  company: 'JP Morgan',
+  location: 'Chicago, Illinois',
   blogs: [],
   events: [],
 }
@@ -13,7 +13,7 @@ const defaultState = {
 function reducer(state = defaultState, action) {
   switch (action.type) {
     case RECIEVE_ERG:
-      return Object.assign({}, state, { 
+      return Object.assign({}, state, {
         name: action.name,
         company: action.company,
         location: action.location,
@@ -21,7 +21,7 @@ function reducer(state = defaultState, action) {
         events: action.events,
       });
     default:
-      return state
+      return state;
   }
 }
 

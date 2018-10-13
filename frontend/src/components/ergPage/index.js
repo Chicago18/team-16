@@ -5,12 +5,19 @@ import BlogPostsContainer from './blogPostsContainer';
 import EventsContainer from './eventsContainer';
 import Content from './content';
 
+import styles from './style.css';
+
 const ERGPage = ({ name, location, blogs, events }) => (
   <div>
-    <h2>{name}</h2>
-    <h3>{location}</h3>
-    <BlogPostsContainer blogs={blogs}/>
-    <EventsContainer events={events}/>
+    <div className={styles.banner}/>
+    <div className={styles.infoCont}>
+      <h2 className={styles.name}>{name}</h2>
+      <h3 className={styles.loc}>{location}</h3>
+    </div>
+    <div className={styles.body}>
+      <BlogPostsContainer blogs={blogs}/>
+      <EventsContainer events={events}/>
+    </div>
   </div>
 );
 
