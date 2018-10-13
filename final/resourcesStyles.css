@@ -79,12 +79,13 @@ header li:hover {
 }
 
 .resource-divider {
+    margin-top: 5px;
     display: block;
     border-bottom: solid 1px #dddfe2;
     width: 500px;
 }
 
-.resource a {
+.resource-name {
     margin-top: 5px;
     margin-bottom: 5px;
     font-family: 'Oxygen', sans-serif;
@@ -97,7 +98,12 @@ header li:hover {
     margin-right: 10px;
 }
 
-.resources-cont {
+#resources-list {
+        display: flex;
+    justify-content: center;
+}
+
+.list {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -110,4 +116,18 @@ body {
     display: flex;
     justify-content: center;
     background-color: #e9ebee;
+}
+
+.tag-cont {
+    display: flex;
+    width: 90%;
+    margin-top: 40px;
+    flex-direction: row-reverse;
+}
+
+.tag {
+    margin-left: 15px;
+    padding: 2px 6px;
+    background-color: #efefef;
+    border-radius: 2px;
 }

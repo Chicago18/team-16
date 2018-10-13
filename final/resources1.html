@@ -2,12 +2,16 @@
 <head>
   <title>Resources</title>
   <link rel="stylesheet" href="resourcesStyles.css">
+  <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+  <script type="application/javascript" src="resourcesScript.js"></script>
 </head>
 <body>
   <header>
     <div class="search-cont">
       <img src="icon.png">
-      <input type="text" name="search" placeholder="search">
+      <form>
+        <input class='search' id='search' type="text" name="search" placeholder="search">
+      </form>
     </div>
     <ul>
       <li>
@@ -22,52 +26,73 @@
     </ul>
   </header>
 
-  <ul class="resources-cont">
-
-    <li class="resource">
-      <img src="pdf.png">
-      <div class='resource-info'>
-        <div class='resource-img'></div>
-        <div class='resource-divider'>
-          <a class='resource-name' target="_blank" href="./Files/Times.pdf">Times</a>
+  <div id='resources-list'>
+    <ul class="list">
+      <li class="resource">
+        <img src="pdf.png">
+        <div class='resource-info'>
+          <div class='resource-img'></div>
+          <div class='resource-divider'>
+            <a class='resource-name' target="_blank" href="./Files/Times.pdf">Times</a>
+          </div>
+          <p class='resource-desc'>Lorem ipsum dolor amet direct trade taiyaki hexagon man bun 3 wolf moon, actually 8-bit food truck flannel fashion axe pickled green juice post-ironic hammock tilde. Hell of meggings chicharrones chillwave. Hoodie health goth hell of fixie VHS cronut chia.</p>
+          <div class='tag-cont'>
+            <div class='tag'>Discrimination</div>
+            <div class='tag'>History</div>
+            <div class='tag'>Prejudice</div>
+          </div>
         </div>
-        <p>Lorem ipsum dolor amet direct trade taiyaki hexagon man bun 3 wolf moon, actually 8-bit food truck flannel fashion axe pickled green juice post-ironic hammock tilde. Hell of meggings chicharrones chillwave. Hoodie health goth hell of fixie VHS cronut chia.</p>
-      </div>
-    </li>
+      </li>
 
-    <li class="resource">
-      <img src="pdf.png">
-      <div class='resource-info'>
-        <div class='resource-img'></div>
-        <div class='resource-divider'>
-          <a class='resource-name' target="_blank" href="./Files/The_Guardian.pdf">The Guardian</a>
+      <li class="resource">
+        <img src="pdf.png">
+        <div class='resource-info'>
+          <div class='resource-img'></div>
+          <div class='resource-divider'>
+            <a class='resource-name' target="_blank" href="./Files/The_Guardian.pdf">The Guardian</a>
+          </div>
+          <p class='resource-desc'>Lorem ipsum dolor amet direct trade taiyaki hexagon man bun 3 wolf moon, actually 8-bit food truck flannel fashion axe pickled green juice post-ironic hammock tilde. Hell of meggings chicharrones chillwave. Hoodie health goth hell of fixie VHS cronut chia.</p>
+          <div class='tag-cont'>
+            <div class='tag'>School</div>
+            <div class='tag'>Religion</div>
+            <div class='tag'>Discrimination</div>
+            <div class='tag'>LGBT</div>
+          </div>
         </div>
-        <p>Lorem ipsum dolor amet direct trade taiyaki hexagon man bun 3 wolf moon, actually 8-bit food truck flannel fashion axe pickled green juice post-ironic hammock tilde. Hell of meggings chicharrones chillwave. Hoodie health goth hell of fixie VHS cronut chia.</p>
-      </div>
-    </li>
+      </li>
 
-    <li class="resource">
-      <img src="pdf.png">
-      <div class='resource-info'>
-        <div class='resource-img'></div>
-        <div class='resource-divider'>
-          <a class='resource-name' target="_blank" href="./Files/CNN.pdf">Out & Equal CNN</a>
+      <li class="resource">
+        <img src="pdf.png">
+        <div class='resource-info'>
+          <div class='resource-img'></div>
+          <div class='resource-divider'>
+            <a class='resource-name' target="_blank" href="./Files/CNN.pdf">Out & Equal CNN</a>
+          </div>
+          <p class='resource-desc'>Lorem ipsum dolor amet direct trade taiyaki hexagon man bun 3 wolf moon, actually 8-bit food truck flannel fashion axe pickled green juice post-ironic hammock tilde. Hell of meggings chicharrones chillwave. Hoodie health goth hell of fixie VHS cronut chia.</p>
+          <div class='tag-cont'>
+            <div class='tag'>Hate Crime</div>
+            <div class='tag'>LGBT</div>
+          </div>
         </div>
-        <p>Lorem ipsum dolor amet direct trade taiyaki hexagon man bun 3 wolf moon, actually 8-bit food truck flannel fashion axe pickled green juice post-ironic hammock tilde. Hell of meggings chicharrones chillwave. Hoodie health goth hell of fixie VHS cronut chia.</p>
-      </div>
-    </li>
+      </li>
 
-    <li class="resource">
-      <img src="pdf.png">
-      <div class='resource-info'>
-        <div class='resource-img'></div>
-        <div class='resource-divider'>
-          <a class='resource-name' target="_blank" href="./Files/US_News.pdf">US News</a>
+      <li class="resource">
+        <img src="pdf.png">
+        <div class='resource-info'>
+          <div class='resource-img'></div>
+          <div class='resource-divider'>
+            <a class='resource-name' target="_blank" href="./Files/US_News.pdf">US News</a>
+          </div>
+          <p class='resource-desc'>Lorem ipsum dolor amet direct trade taiyaki hexagon man bun 3 wolf moon, actually 8-bit food truck flannel fashion axe pickled green juice post-ironic hammock tilde. Hell of meggings chicharrones chillwave. Hoodie health goth hell of fixie VHS cronut chia.</p>
+          <div class='tag-cont'>
+            <div class='tag'>India</div>
+            <div class='tag'>Gay Rights</div>
+            <div class='tag'>Law</div>
+          </div>
         </div>
-        <p>Lorem ipsum dolor amet direct trade taiyaki hexagon man bun 3 wolf moon, actually 8-bit food truck flannel fashion axe pickled green juice post-ironic hammock tilde. Hell of meggings chicharrones chillwave. Hoodie health goth hell of fixie VHS cronut chia.</p>
-      </div>
-    </li>
+      </li>
+    </ul>
+  </div>
 
-  </ul>
 </body>
 </html>
