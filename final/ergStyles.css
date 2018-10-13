@@ -1,0 +1,147 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: #e9ebee;
+}
+
+.info-cont {
+    width: 900px;
+}
+
+.group-name {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1.3em;
+    margin-top: 20px;
+    margin-left: 3px;
+    margin-bottom: 3px;
+}
+
+.loc-name {
+    font-size: 1em;
+    color: #90949c;
+    margin-left: 3px;
+}
+
+.body2 {
+    width: 90%;
+}
+
+.banner {
+    background: url(background.jpg) no-repeat;
+    height: 400px;
+}
+
+.options-cont {
+    border-right: solid 1px #dddfe2;
+    border-left: solid 1px #dddfe2;
+    border-bottom: solid 1px #dddfe2;
+    border-radius: 0 0 3px 3px;
+    height: 60px;
+    background-color: white;
+}
+
+.content-cont {
+    display: flex;
+}
+
+.blog-cont {
+    width: 70%;
+}
+
+.blogpost {
+    border: solid 1px #dddfe2;
+    border-radius: 3px;
+    background-color: white;
+    margin-top: 15px;
+    margin-right: 7px;
+}
+
+.blog-header {
+    border-bottom: #90949c 1px solid;
+}
+
+.blogpost h2 {
+    color: #4b4f56;
+    font-family: helvetica;
+    display: inline;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.blogpost h3 {
+    display: inline;
+    font-family: helvetica;
+    font-size: .8em;
+}
+
+.blogpost p {
+    margin: 5px 15px;
+}
+
+.event-cont {
+    width: 30%;
+}
+
+.event {
+    border: solid 1px #dddfe2;
+    border-radius: 3px;
+    background-color: white;
+    margin-top: 15px;
+    margin-left: 7px;
+}
+
+.event img {
+    width: 100%;
+}
+
+.event h2 {
+    color: #4b4f56;
+    font-family: helvetica;
+    display: inline;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.event h3 {
+    font-family: helvetica;
+    font-size: .8em;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+
+.resource {
+    border: solid 1px #dddfe2;
+    border-radius: 3px;
+    background-color: white;
+    margin-top: 15px;
+    margin-right: 7px;
+
+    display: flex;
+}
+
+.resource img {
+    height: 150px;
+}
+
+.resource-divider {
+    display: block;
+    border-bottom: solid 1px #dddfe2;
+    width: 500px;
+}
+
+.resource h4 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-family: helvetica;
+    color: #4b4f56;
+}
+
+.resource p {
+    margin-top: 5px;
+    margin-right: 10px;
+}
