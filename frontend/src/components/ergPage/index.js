@@ -2,6 +2,7 @@ import React from 'react';
 
 import BlogPosts from './blogPosts';
 import Events from './events';
+import Content from './content';
 
 const ERGPage = () => (
   <div>
