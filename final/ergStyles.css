@@ -210,3 +210,10 @@ header li:hover {
     margin-top: 5px;
     margin-right: 10px;
 }
+.resource-info {
+    width: 80%;
+}
+
+#icon {
+    margin-left: 5px
+}
