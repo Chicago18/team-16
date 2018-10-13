@@ -9,7 +9,7 @@ const ERGPage = ({ name, location, blogs, events }) => (
   <div>
     <h2>{name}</h2>
     <h3>{location}</h3>
-    <BlogPostsContainer events={blogs}/>
+    <BlogPostsContainer blogs={blogs}/>
     <EventsContainer events={events}/>
   </div>
 );
