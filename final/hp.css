@@ -1,7 +1,29 @@
 #rcorners2 {
-    border-radius: 25px;
-    border: 2px solid #73AD21;
+    border-radius: 10px;
+    border: 2px solid #0097f5;
     padding: 20px; 
     width: 200px;
     height: 30px; 
+}
+
+#center{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.button2 {
+    background-color: #0097f5; 
+    color: black; 
+    border: 2px solid #0097f5;
+    height: 40px; 
+    border-radius: 5px;
+}
+
+.button2:hover {
+    background-color: white;
+    color: white;
+    border: 2px solid #0097f5;
+    height: 40px; 
+    border-radius: 5px;
 }
