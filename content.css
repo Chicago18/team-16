@@ -1,0 +1,10 @@
+h1::first-letter {
+	font-size: 300%;
+	color: #1e5799;
+}
+p {
+	font-family: 'K2D', sans-serif;
+}
+img:hover {
+	border: solid orange 2px;
+}
