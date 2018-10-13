@@ -3,6 +3,7 @@
 <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="ergStyles.css">
 <head>
     <title>Resouces</title>
+    <script type="application/javascript" src="style.js"></script>
 </head>
     <body>
         Important Resources <br> <br>
@@ -11,23 +12,45 @@
         <a href="./Files/CNN.pdf">CNN.pdf</a> <br>
         <a href="./Files/US_News.pdf">US News.pdf</a> <br>
 
-    <style>
-        body {
-            background-color: #0097f5;
-            font-family: 'Roboto Condensed';font-size: 22px;
+    <div id="users">
 
-        }
+<!-- class="search" automagically makes an input a search field. -->
+<div id="users">
 
-        h1 {
-            color: white;
-            text-align: center;
-            font-family: 'Roboto Condensed';font-size: 22px;
+  <input class="search" placeholder="Search" />
+  <button class="sort" data-sort="name">
+    Sort
+  </button>
 
-        }
+  <ul class="list"></ul>
 
-        p {
-            font-family: 'Roboto Condensed';font-size: 22px;
-        }
-    </style>
+</div>
+<!-- class="sort" automagically makes an element a sort buttons. The date-sort value decides what to sort by. -->
+  <button class="sort" data-sort="name">
+    Sort
+  </button>
+
+<!-- Child elements of container with class="list" becomes list items -->
+  <ul class="list">
+    <li>
+<!-- The innerHTML of children with class="name" becomes this items "name" value -->
+      <h3 class="name">Jonny Stromberg</h3>
+      <p class="born">1986</p>
+    </li>
+    <li>
+      <h3 class="name">Jonas Arnklint</h3>
+      <p class="born">1985</p>
+    </li>
+    <li>
+      <h3 class="name">Martina Elm</h3>
+      <p class="born">1986</p>
+    </li>
+    <li>
+      <h3 class="name">Gustaf Lindqvist</h3>
+      <p class="born">1983</p>
+    </li>
+  </ul>
+
+</div>
     </body>
 </html>

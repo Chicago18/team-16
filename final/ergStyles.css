@@ -210,3 +210,22 @@ header li:hover {
     margin-top: 5px;
     margin-right: 10px;
 }
+.resource-info {
+    width: 80%;
+}
+
+#icon {
+    margin-left: 5px
+}
+
+#mission {
+    background-color: white;
+    border: 0.5px black solid;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-style: italic;
+}
+
+#Contact {
+    margin-left: 5px;
+}
