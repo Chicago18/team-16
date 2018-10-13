@@ -10,8 +10,8 @@ const Header = () => (
 	
 		<Switch>
 			<Route path = '/' component = {LoginHeader}/>
-			<Route path='/signup' component={LoginHeader}/>
-			<Route path='/' component={UserHeader}/>
+			/*<Route path='/signup' component={LoginHeader}/>
+			<Route path='/' component={UserHeader}/>*/
 		</Switch>
 	</div>
 )
