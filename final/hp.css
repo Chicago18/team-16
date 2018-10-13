@@ -3,7 +3,7 @@
     border: 2px solid #0097f5;
     padding: 20px; 
     width: 200px;
-    height: 30px; 
+    height: 20px; 
 }
 
 #center{
@@ -18,6 +18,7 @@
     border: 2px solid #0097f5;
     height: 40px; 
     border-radius: 5px;
+
 }
 
 .button2:hover {
