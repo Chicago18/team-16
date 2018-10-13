@@ -15,3 +15,5 @@ const Header = () => (
 		</Switch>
 	</div>
 )
+
+export default Header;
